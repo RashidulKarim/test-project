@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  line-height: 50px;
+  border-bottom: 1px solid gray;
+  position: fixed;
+}
+.nav-left {
+  display: inline-block;
+  padding: 8px 16px;
+}
+.nav-right {
+  display: inline-block;
+  float: right;
+}
+.nav-left a {
+  color: block;
+  text-decoration: none;
+}
+.nav-right a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+.company-name {
+  font-weight: 900px;
+}
